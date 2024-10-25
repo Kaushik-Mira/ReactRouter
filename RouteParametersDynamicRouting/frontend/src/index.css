@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.jobs {
+  padding: 40px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.jobs a {
+  flex: 1;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #efefef;
+  color: #000;
+  border-radius: 7px;
+}
+.job-details {
+  padding: 50px 0;
+}
+.job-details p {
+  max-width: 800px;
+  padding: 10px 0;
+}
+.job-details button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
